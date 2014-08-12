@@ -21,7 +21,7 @@ class SimpleTween extends Screen{
     Tween.to(pos, VectorAccessor.XY, 1)
       ..delay = 0.3
       ..targetValues = [x, y]
-    ..start(_tweenManager);
+    ..start(_tweenManager); 
     
 //    Tween.to(pos, VectorAccessor.XY, 1)
 //      ..delay = 0.3
